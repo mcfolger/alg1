@@ -1,0 +1,35 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  font-family: Cambria, sans-serif;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  background-color: #eb8f25;
+  color: white;
+  font-size: 18px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  text-align: center;
+  transition: transform .3s ease-in-out;
+  }
+
+
+button:hover {
+    transform: scale(1,1.5);
+    color: rgb(52, 54, 161);
+    background-color: rgb(163, 182, 112);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
